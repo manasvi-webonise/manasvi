@@ -1,0 +1,102 @@
+********
+Hostname
+********
+webonise-Desktop
+
+
+**********
+OS Version
+**********
+x86_64
+Description:	Ubuntu 14.04.1 LTS
+
+************
+Complete Path to directory
+************
+/home/webonise
+
+***************
+Logged In Users
+***************
+webonise webonise
+
+******
+Groups
+******
+webonise adm cdrom sudo dip plugdev lpadmin sambashare
+
+*************
+List of Files excluding directories
+*************
+as.sh
+assignment-Tue Apr  5 13:23:48 IST 2016.log
+assignment-Tue Apr  5 13:27:31 IST 2016.log
+assignment-Tue Apr  5 13:28:14 IST 2016.log
+examples.desktop
+
+abc.text
+abh.text
+as.sh
+assign.sh
+test
+test.log
+test.log~
+
+
+
+
+
+
+
+google-chrome-stable_current_amd64.deb
+linux-assignment.pdf
+skype-ubuntu-precise_4.3.0.37-1_i386.deb
+
+
+
+
+
+
+1.sh~
+2-4.sh~
+2.sh~
+5-7.sh~
+a.sh
+a.sh~
+assignment.log
+assignment.log~
+assignment-Tue Apr  5 14:20:44 IST 2016.log
+b-d.sh
+b-d.sh~
+e-g.sh
+e-g.sh~
+Git.hs~
+
+1.sh
+1.sh~
+2-4.sh
+5-7.sh
+5-7.sh~
+assignment.log
+Assignment.log
+assignment-Tue Apr  5 04_39_47 IST 2016.log
+assignment-Tue Apr  5 04_41_40 IST 2016.log
+assignment-Tue Apr  5 13:20:15 IST 2016.log
+assignment-Tue Apr  5 13:38:26 IST 2016.log
+
+
+
+text1.txt is renamed as Tue-Apr--5-14:21:17-IST-2016-text1.txt
+
+text5.txt is renamed as Tue-Apr--5-14:21:17-IST-2016-text5.txt
+
+text4.txt is renamed as Tue-Apr--5-14:21:17-IST-2016-text4.txt
+
+text3.txt is renamed as Tue-Apr--5-14:21:17-IST-2016-text3.txt
+
+text2.txt is renamed as Tue-Apr--5-14:21:17-IST-2016-text2.txt
+
+Moved a to ../public_html/a
+Moved b to ../public_html/b
+Moved c to ../public_html/c
+Moved d to ../public_html/d

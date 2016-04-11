@@ -1,0 +1,65 @@
+body{
+position:absolute;
+font-family:”Calibri”, garamond, ‘Comic Sans’;
+}
+h1{
+     top:0px;
+     margin-top:0px;
+     margin-bottom:6px;
+     background-color:white;
+     font-size:35px;
+     position:fixed;
+     width:100%;
+     display:block;
+     
+}
+h2{
+     top:13px;
+     font-size:35px;
+     margin-top:29px;
+     margin-bottom:25px;
+     text-align:center;
+     background-color:lightgrey;     
+     padding-top:70px;
+     padding-bottom:70px;
+     
+     position:fixed;
+     width:99%;
+     display:block;
+     heigth:30px;
+}
+p.first{
+     margin-top:230px;
+     margin-bottom:0px;
+     font-size:30px;
+     font-weight:normal;
+     
+}
+p.second{
+line-height:25px;
+font-size:13px;
+margin-top:5px;}
+p.third{
+line-height:25px;
+font-size:13px;}
+
+p.fourth{
+     font-weight:normal;
+     font-size:18px;
+margin-top:10px;  
+margin-bottom:10px;      
+}
+p.fifth{
+margin-top:5px;
+line-height:25px;
+font-size:13px;}
+p.sixth{
+line-height:25px;
+font-size:13px;}
+
+a{
+     display:block;
+}
+a.in
+{
+display:inline;

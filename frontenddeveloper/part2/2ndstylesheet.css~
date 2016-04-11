@@ -16,26 +16,24 @@ html, body {
 .navigate li
 {
    display: inline;
-    font-size: 18px;
+    text-size: 18px;
     position: relative;
-    margin-right:35px;
+    margin-right:10px;
     color: #aaaaaa;
     font-weight:600;
-    
+    padding-bottom:7.5px;
+    padding-top:7.5px;
+padding-left:35px;
+padding-right:35px;
 }
 
 
-.logo
+
+
+.navigate li:hover
 {
-    width:140px;
-    height:35px;
-    top:-25px;
-    left: 150px;
-    background-color: #ff8000;
-    position:relative;
-    float:left;
-    clear:both;
-    
+	color: BLACK;
+background-color:#ff8000;
 }
 
 .top
@@ -124,6 +122,7 @@ color:black;
 {
 text-decoration: none;
 color: inherit;
+outline: 0;
 }
 
 .footer

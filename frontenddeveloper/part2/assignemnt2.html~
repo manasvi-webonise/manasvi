@@ -8,8 +8,9 @@
 <body>
 
 <div class="top">
+	
     <ul class="navigate">
-       <li><a href="http://www.google.com" class="linking" target="_blank"><p class="logo"></p></a></li>
+       <li><a href="http://www.google.com" class="linking" target="_blank">HOME</a></li>
        <li><a href="http://www.google.com" class="linking" target="_blank">THE GALLERY</a></li>
        <li><a href="http://www.google.com" class="linking" target="_blank">HOW IT WORKS</a></li>
        <li><a href="http://www.google.com" class="linking" target="_blank">HELP</a></li>
@@ -40,10 +41,10 @@
 
 <div class="footer">
     <ul class="footerlist">
-        <li class="home"><a href="http://www.fb.com" class="linking">HOME</a></li>
-        <li><a href="http://www.yahoo.com" class="linking">THE GALLERY</a></li>
-<li><a href="http://www.gmail.com" class="linking">HOW IT WORKS</a></li>
-<li><a href="http://www.youtube.com" class="linking">HELP</a></li>
+        <li class="home"><a href="http://www.fb.com" class="linking" target="_blank">HOME</a></li>
+        <li><a href="http://www.yahoo.com" class="linking" target="_blank">THE GALLERY</a></li>
+<li><a href="http://www.gmail.com" class="linking" target="_blank">HOW IT WORKS</a></li>
+<li><a href="http://www.youtube.com" class="linking" target="_blank">HELP</a></li>
 </ul>
 
 </div>

@@ -124,7 +124,6 @@ color:black;
 {
 text-decoration: none;
 color: inherit;
-outline: 0;
 }
 
 .footer

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+</head>
+<body>
+<h1><center>Welcome Manasvi</center></h1>
+<p>Click the below button to get weather details of pune</p>
+<button onclick="weather()">Click me</button>
+<p id="demo"></p>
+<script>
+function weather()
+{
+var wd=new XMLHttpRequest();
+wd.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Pune,India&appid=a3806c731e652ae5f1d01bea99e67fa0", false);
+wd.send(null);
+ var k= wd.response;
+document.getElementById("demo").innerHTML=k;
+}
+</script>
+</body>
+</html>

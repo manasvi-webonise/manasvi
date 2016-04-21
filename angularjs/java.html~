@@ -50,93 +50,96 @@
 </tr>
 <tr>
 <td>temperature</td>
-<td id="temp"></td>
+<td>{{wd.main.temp}}</td>
 </tr>
 <tr>
 <td>pressure</td>
-<td id="pressure"></td>
+<td>{{wd.main.pressure}}</td>
 </tr>
 <tr>
 <td>humidity</td>
-<td id="humidity"></td>
+<td>{{wd.main.humidity}}</td>
 </tr>
 <tr>
 <td>Minimum Temp</td>
-<td id="mintemp"></td>
+<td>{{wd.main.temp_min}}</td>
 </tr>
 <tr>
 <td>Maximum Temp</td>
-<td id="maxtemp"></td>
+<td>{{wd.main.temp_max}}</td>
 </tr>
 <tr>
 <td>sea level</td>
-<td id="sealevel"></td>
+<td>{{wd.main.sea_level}}</td>
 </tr>
 <tr>
 <td>ground level</td>
-<td id="grndlevel"></td>
+<td>{{wd.main.grnd_level}}</td>
 </tr>
 <tr>
 <td><b>Wind</b></td>
 </tr>
 <tr>
 <td>speed</td>
-<td id="speed"></td>
+<td>{{wd.wind.speed}}</td>
 </tr>
 <tr>
 <td>deg</td>
-<td id="deg"></td>
+<td>{{wd.wind.deg}}</td>
 </tr>
 <tr>
 <td><b>Clouds</b></td>
 </tr>
 <tr>
 <td>all</td>
-<td id="all"></td>
+<td>{{wd.clouds.all}}</td>
 </tr>
 <tr>
 <td><b>dt</b></td>
 </tr>
 <tr>
 <td>dt</td>
-<td id="dt"></td>
+<td>{{wd.dt}}</td>
 </tr>
 <tr>
 <td><b>Sys</b></td>
 </tr>
 <tr>
 <td>message</td>
-<td id="message"></td>
+<td>{{wd.sys.message}}</td>
 </tr>
 <tr>
 <td>country</td>
-<td id="country"></td>
+<td>{{wd.sys.country}}</td>
 </tr>
 <tr>
 <td>sunrise</td>
-<td id="sunrise"></td>
+<td>{{wd.sys.sunrise}}</td>
 </tr>
 <tr>
 <td>sunset</td>
-<td id="sunset"></td>
+<td>{{wd.sys.sunset}}</td>
 </tr>
 <tr>
 <td><b>id</b></td>
 </tr>
-
+<tr>
+<td>id</td>
+<td>{{wd.id}}</td>
+</tr>
 <tr>
 <td><b>Name</b></td>
 </tr>
 <tr>
 <td>name</td>
-<td id="name"></td>
+<td>{{wd.name}}</td>
 </tr>
 <tr>
 <td><b>cod</b></td>
 </tr>
 <tr>
 <td>cod</td>
-<td id="cod"></td>
+<td>{{wd.cod}}</td>
 </tr>
 </table>
 <script>
@@ -153,24 +156,10 @@ document.getElementById("main").innerHTML=k.weather[0].main;
 document.getElementById("description").innerHTML=k.weather[0].description;
 document.getElementById("icon").innerHTML=k.weather[0].icon;
 document.getElementById("base").innerHTML=k.base;
-document.getElementById("temp").innerHTML=k.main.temp;
-document.getElementById("pressure").innerHTML=k.main.pressure;
-document.getElementById("humidity").innerHTML=k.main.humidity;
-document.getElementById("mintemp").innerHTML=k.main.temp_min;
-document.getElementById("maxtemp").innerHTML=k.main.temp_max;
-document.getElementById("sealevel").innerHTML=k.main.sea_level;
-document.getElementById("grndlevel").innerHTML=k.main.grnd_level;
-document.getElementById("speed").innerHTML=k.wind.speed;
-document.getElementById("deg").innerHTML=k.main.deg;
-document.getElementById("all").innerHTML=k.clouds.all;
-document.getElementById("dt").innerHTML=k.dt;
-document.getElementById("message").innerHTML=k.sys.message;
-document.getElementById("country").innerHTML=k.sys.country;
-document.getElementById("sunrise").innerHTML=k.sys.sunrise;
-document.getElementById("sunset").innerHTML=k.sys.sunset;
-document.getElementById("name").innerHTML=k.name;
-document.getElementById("cod").innerHTML=k.cod;
-
+document.getElementById("long").innerHTML=k.coord.lon;
+document.getElementById("long").innerHTML=k.coord.lon;
+document.getElementById("long").innerHTML=k.coord.lon;
+document.getElementById("long").innerHTML=k.coord.lon;
 
 }
 </script>

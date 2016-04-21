@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validation()
+{
+var error="";
+var f=document.getElementById('firstname').value;
+var l=document.getElementById('lastname').value;
+var p=document.getElementById('password').value;
+var c=document.getElementById('contact').value;
+if(f=="")
+{
+error=error+"enter firstname \n";
+}
+if((f!="")&&(f.length<6))
+{
+error=error+"length of firstname should be atleast 6 \n";
+}
+
+
+if(l=="")
+{
+error=error+"enter lastname \n";
+}
+if((l!="")&&(l.length<6))
+{
+error=error+"length of lastname should be atleast 6 \n";
+}
+
+
+if(p=="")
+{
+error=error+"enter password \n";
+
+}
+if((p!="")&&(p.length<6))
+{
+error=error+"length of password should be atleast 6 \n";
+}
+
+if(c=="")
+{
+error=error+"enter contact \n";
+
+}
+if((c!="")&&(c.length<6))
+{
+error=error+"length of contact should be atleast 6 \n";
+}
+if(isNaN(c))
+{
+error=error+"contact should be in numbers \n";
+}
+if(error!="")
+{
+alert(error); return false;
+
+}
+else
+{
+var fname=document.assignment.firstname.value;
+var lname=document.assignment.lastname.value;
+var pass=document.assignment.password.value;
+var contact=document.assignment.contact.value;
+var s=fname+"\n"+lname+"\n"+password+"\n"+contact;
+alert(s);
+}
+}
+</script>
+<head>
+<body>
+
+<form name="assignment" onsubmit="validation()">
+  First name:<br>
+  <input type="text" id="firstname" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" id="lastname" name="lastname">
+  <br>
+  Password:<br>
+  <input type="password" id="password" name="password">
+  <br>
+  Contact:<br>
+  <input type="text" id="contact" name="contact">
+  <br>
+  <br>
+  <input type="submit" value="submit">
+</form>
+
+</body>
+</html>
